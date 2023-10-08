@@ -71,6 +71,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest") // Jetpack Compose
     kapt("com.google.dagger:hilt-android-compiler:2.44")
+    implementation("com.google.code.gson:gson:2.8.8")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
